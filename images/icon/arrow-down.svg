@@ -1,0 +1,12 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 7 5" width="7" height="5">
+	<title>//HEADER</title>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #ffffff } 
+	</style>
+	<g id="//HEADER">
+		<g id="Top bar">
+			<path id="arrow-down" class="shp0" d="M3.5 5L0 0L7 0L3.5 5Z" />
+		</g>
+	</g>
+</svg>

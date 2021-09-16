@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>social network</title>
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<div class="ground">
+		<div class="container">
+			<header class="header">
+				<div class="header__button">
+					<div class="header__wrap">
+						<div class="header__name">social ui</div>
+						<ul class="header__list">
+							<li class="header__item header__item--bell">
+								<img src="images\icon\bell.png">
+							</li>
+							<li class="header__item">
+								<img src="images\icon\users.svg">
+							</li>
+							<li class="header__item header__item--mess">
+								<!-- <img src="images\icon\mess.png"> -->
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 17" width="20" height="17">
+										<title>Messages</title>								
+									<path fill="#a2b1c9" d="M19.98 7.26C19.78 8.92 18.69 10.32 17.12 11.21C17.04 11.91 17.3 12.8 18.53 13.71C18.97 14.03 17.08 14.44 15.01 12.92C16.01 11.59 16.46 10.03 16.28 8.49C16.08 6.77 15.1 5.21 13.53 4.09C12.05 3.04 10.14 2.47 8.14 2.47C7.81 2.47 7.47 2.49 7.13 2.52C8.63 1.2 10.92 0.48 13.38 0.75C17.4 1.19 20.36 4.11 19.98 7.26ZM15.07 8.63C15.44 11.79 12.49 14.7 8.47 15.14C8.12 15.18 7.78 15.2 7.44 15.2C7.07 15.2 6.71 15.18 6.35 15.14C4.91 16.6 3.41 17 2.57 17C2.03 17 1.77 16.83 1.96 16.69C3.19 15.78 3.45 14.89 3.37 14.19C1.79 13.3 0.7 11.91 0.51 10.24C0.13 7.09 3.09 4.17 7.11 3.73C7.46 3.69 7.8 3.67 8.14 3.67C11.72 3.67 14.73 5.75 15.07 8.63Z" />
+								</svg>
+							</li>						
+						</ul>
+					</div>
+					<div class="header__wrap">
+						<div class="header__user">John Doe</div>
+						<ul class="header__list">
+							<li class="header__item header__item--arrow">
+								<img src="images\icon\user.svg">
+							</li>
+							<li class="header__item">
+								<!-- <img src="images\icon\search.png"> -->
+								<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 18" width="18" height="18">
+									<title>Search</title>								
+									<path fill="#a2b1c9" d="M7.98 16.04C3.59 16.04 0.01 12.44 0.01 8.02C0.01 3.59 3.59 0 7.98 0C12.38 0 15.96 3.59 15.96 8.02C15.96 12.44 12.38 16.04 7.98 16.04ZM7.97 2.24C4.77 2.24 2.17 4.84 2.17 8.04C2.17 11.24 4.77 13.84 7.97 13.84C11.17 13.84 13.77 11.24 13.77 8.04C13.77 4.84 11.17 2.24 7.97 2.24ZM12.57 13.95L13.98 12.53L17.99 16.57L16.57 17.99L12.57 13.95Z" />
+								</svg>
+								
+							</li>
+							<li class="header__item">
+								<img src="images\icon\out.svg">
+							</li>						
+						</ul>
+					</div>
+				</div>
+				
+				<div class="menu">
+					<ul class="menu__list">
+						<li class="menu__item">
+							<a  class="menu__link" href="#">Dialoges</a>
+						</li>
+						<li class="menu__item">
+							<a  class="menu__link" href="#">Photos</a>
+						</li>
+						<li class="menu__item">
+							<a  class="menu__link" href="#">Videos</a>
+						</li>
+						<li class="menu__item">
+							<a  class="menu__link" href="#">Music</a>
+						</li>
+						<li class="menu__item">
+							<a  class="menu__link" href="#">Communities</a>
+						</li>						
+					</ul>
+				</div>
+				
+			</header>
+
+			<main class="main">
+				<h1 class="sr-only">network UI</h1>
+				<section class="myName">
+					<div class="myName__about">
+						<img class="myName__img" src="images/content/Iam.png" alt="foto user">
+						<div class="myName__description">
+							<h2 class="myName__name">John Doe</h2>
+							<p class="myName__text">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed aliqua.
+							</p>
+						</div>
+					</div>					
+					
+					<div class="myName__static">
+						<div class="myName__block">
+							<p class="myName__number">1121</p>
+							<p class="myName__position">Followers</p>
+						</div>
+						<div class="myName__block">
+							<p class="myName__number">5356</p>
+							<p class="myName__position">Following</p>
+						</div>
+						<div class="myName__block">
+							<p class="myName__number">205</p>
+							<p class="myName__position">Photos</p>
+						</div>
+						<div class="myName__block">
+							<p class="myName__number">789</p>
+							<p class="myName__position">Videos</p>
+						</div>
+					</div>
+					
+					<div class="myName__buttonBlock">
+						<button class="myName__button">Send Message</button>
+						<button class="myName__button">Add Friend</button>
+					</div>
+				</section>
+				<section class="mobile">
+					<ul class="mobile__list">
+						<li class="mobile__item">
+							<article class="activity">
+								<div class="activity__wrap">
+									<h2 class="activity__title">
+										Activity Feed
+									</h2>
+									<ul class="activity__list">
+										<li class="activity__item">									
+											<p class="activity__descript activity__descript--album">
+												<a class="activity__link" href="#">Kevin Ertan</a><br>
+												Added 4 photos to album
+												<a class="activity__link" href="#">Summer</a>
+											</p>
+											<ul class="activity__fotos">
+												<li class="activity__foto">
+													<img src="images/content/img1.png">
+												</li>
+												<li class="activity__foto">
+													<img src="images/content/img2.png">
+												</li>
+												<li class="activity__foto">
+													<img src="images/content/img3.png">
+												</li>
+												<li class="activity__foto">
+													<img src="images/content/img4.png">
+												</li>
+											</ul>
+										</li>
+										<li class="activity__item">
+											<p class="activity__descript activity__descript--liked">
+												<a class="activity__link" href="#">John Doe</a>
+												liked 2 photos of
+												<a class="activity__link" href="#">Alex Wayne</a>
+											</p>
+											<ul class="activity__fotos">
+												<li class="activity__foto">
+													<img src="images/content/img5.png">
+												</li>
+												<li class="activity__foto">
+													<img src="images/content/img6.png">
+												</li>										
+											</ul>
+										</li>
+										<li class="activity__item">
+											<p class="activity__descript activity__descript--added">
+												<a class="activity__link" href="#">John Doe</a>
+												added
+												<a class="activity__link" href="#">Alex Wayne</a>
+												to friends
+											</p>									
+										</li>								   
+										<li class="activity__item">
+											<p class="activity__descript activity__descript--event">
+												<a class="activity__link" href="#">Alex Gilev</a>
+												created the
+												<a class="activity__link" href="#">Bowling</a>
+												event
+											</p>				
+										</li>
+										<li class="activity__item">
+											<p class="activity__descript activity__descript--shared">
+												<a class="activity__link" href="#">David Vane</a>
+												shared a link:										
+											</p>
+											<ul class="activity__fotos">
+												<li class="activity__foto activity__foto--shared">
+													<img src="images/content/img7.png">
+												</li>
+												<li class="activity__foto">
+													<p class="activity__text activity__text--first">Lorem ipsum dolor</p>											
+													<p class="activity__text">Lorem ipsum dolor sit amet, consectetur adipisicing ips...</p>
+													
+												</li>										
+											</ul>
+										</li>
+									</ul>							
+								</div>
+								<div class="people__dropdown">
+									<button class="people__dropdownBtn">
+										Show earlier activity
+									</button>
+								</div>
+							</article>
+						</li>
+						<li class="mobile__item">
+							<article class="people">
+								<div class="people__wrap">
+									<h2 class="people__title">
+										People to Follow
+									</h2>
+									<ul class="people__list">
+										<li class="people__item">
+											<div class="people__field">
+												<img class="people__image" src="images/content/friend1.png">
+												<div class="people__user people__user--active">
+													<p class="people__name people__name--phone">Alex Wayne</p>
+													<p class="people__prof">Artist</p>											
+												</div>
+											</div>									
+											<button class="people__btn">+ Add</button>
+										</li>
+										<li class="people__item">
+											<div class="people__field">
+												<img class="people__image" src="images/content/friend2.png">
+												<div class="people__user people__user--active">
+													<p class="people__name">David Vane</p>
+													<p class="people__prof">Out of town</p>											
+												</div>
+											</div>									
+											<button class="people__btn">+ Add</button>
+										</li>
+										<li class="people__item">
+											<div class="people__field">
+												<img class="people__image" src="images/content/friend3.png">
+												<div class="people__user">
+													<p class="people__name">Kevin Ertan</p>
+													<p class="people__prof">Don’t sleep</p>											
+												</div>
+											</div>									
+											<button class="people__btn">+ Add</button>
+										</li>
+										<li class="people__item">
+											<div class="people__field">
+												<img class="people__image" src="images/content/friend4.png">
+												<div class="people__user people__user--active">
+													<p class="people__name people__name--phone">Jane Doe</p>
+													<p class="people__prof">Artist</p>											
+												</div>
+											</div>									
+											<button class="people__btn">+ Add</button>
+										</li>
+										<li class="people__item">
+											<div class="people__field">
+												<img class="people__image" src="images/content/friend5.png">
+												<div class="people__user">
+													<p class="people__name">Alexander Wilk...</p>
+													<p class="people__prof">Stay Hungry</p>											
+												</div>
+											</div>									
+											<button class="people__btn">+ Add</button>
+										</li>
+										<li class="people__item">
+											<div class="people__field">
+												<img class="people__image" src="images/content/friend1.png">
+												<div class="people__user people__user--active">
+													<p class="people__name people__name--phone">Alex Wayne</p>
+													<p class="people__prof">Artist</p>											
+												</div>
+											</div>									
+											<button class="people__btn">+ Add</button>
+										</li>								
+									</ul>
+									
+								</div>
+								<div class="people__dropdown">
+									<button class="people__dropdownBtn">
+										Show 10 more
+									</button>
+								</div>
+							</article>
+						</li>
+						<li class="mobile__item">
+							<article class="massages">
+								<div class="massages__header">
+									<div class="massages__name">
+										<img class="massages__image" src="images/content/friend1.png">
+										<h2 class="massages__user">Alex Wayne</h2>								
+									</div>
+									<div class="massages__panel">
+										<button class="massages__btn massages__btn--options" type="button"></button>
+										<button class="massages__btn massages__btn--expand" type="button"></button>
+										<button class="massages__btn massages__btn--close" type="button"></button>
+										
+									</div>							
+								</div>
+								<div class="massages__wrap">
+									
+									<ul class="massages__list">
+										<li class="massages__item">
+											<p class="massages__question">
+												Vestibulum ante ipsum primis in faucibus.
+											</p>
+											<p class="massages__time">
+												<time datetime="2021-08-23">Sat, Aug 23, 1:08 PM</time>
+											</p>
+										</li>
+										<li class="massages__item">
+											<p class="massages__question">
+												Cras ultricies ligula.
+											</p>
+											<p class="massages__time">
+												<time datetime="2021-08-23">Sat, Aug 23, 1:08 PM</time>
+											</p>
+										</li>
+										<li class="massages__item massages__item--answer">
+											<p class="massages__answer">
+												Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+												rutrum congue leo eget malesuada. Vivamus suscipit tortor eget felis porttitor.
+											</p>
+											<p class="massages__time massages__time--answer">
+												<time datetime="2021-08-23">Sat, Aug 23, 1:08 PM</time>
+											</p>
+										</li>
+									<ul>
+									<p class="massages__date">
+										<time class="massages__day" datetime="2021-08-24">Sunday, Aug 24</time>
+									</p>
+									<ul class="massages__list">								
+										<li class="massages__item">
+											<p class="massages__question massages__question--mark">
+												Cras ultricies ligula.
+											</p>
+											<p class="massages__time">
+												<time datetime="2021-08-24">5 minutes ago</time>
+											</p>
+										</li>
+										<li class="massages__item massages__item--answer">
+											<p class="massages__answer">
+												Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+											</p>
+											<p class="massages__time massages__time--answer">
+												<time datetime="2021-08-24">Sun, Aug 24, 1:09 PM</time>
+											</p>
+										</li>
+									</ul>
+								</div>
+								<div class="massages__conect">
+									<button class="massages__button"></button>
+									<label>
+										<input class="massages__add" type="text">
+									</label>                        
+									<button class="massages__button massages__button--attach"></button>
+								</div>
+							</article>
+						</li>
+					</ul>
+				</section>
+				
+				<section class="desktop">
+					<aside class="dialogues">
+						<div class="dialogues__header">
+							<h2 class="dialogues__title">Dialogues (2)</h2>
+							<div class="dialogues__panel">
+								<button class="dialogues__btn dialogues__btn--search" type="button"></button>
+								<button class="dialogues__btn dialogues__btn--sound" type="button"></button>
+								<button class="dialogues__btn dialogues__btn--spam" type="button"></button>									
+							</div>
+						</div>
+						<ul class="dialogues__list">
+							<li class="dialogues__item dialogues__item--active">
+							<!-- <a href="#"> -->
+								<div class="dialogues__field dialogues__field--active">
+								<img class="dialogues__image" src="images/content/friend1.png">
+								<div class="dialogues__discription">
+									<div class="dialogues__user">
+										<p class="dialogues__name">Alex Wayne</p>										
+										<time class="dialogues__time" datetime="2021-08-23">1:55 PM</time>										
+									</div>										
+									<p class="dialogues__mess dialogues__mess--smile">Lorem ipsum dolor</p>											
+								</div>
+								</div>
+							<!-- </a> -->
+							</li>
+							<li class="dialogues__item">
+								<div class="dialogues__field">
+								<img class="dialogues__image" src="images/content/friend2.png">
+								<div class="dialogues__discription">
+									<div class="dialogues__user">
+										<p class="dialogues__name">David Vane</p>										
+										<time class="dialogues__time" datetime="2021-08-23">11:39 PM</time>										
+									</div>										
+									<p class="dialogues__mess dialogues__mess--smile">Vestibulum ac diam sit met...</p>											
+								</div>
+								</div>
+							</li>
+							<li class="dialogues__item">
+								<div class="dialogues__field">
+								<img class="dialogues__image" src="images/content/friend6.png">
+								<div class="dialogues__discription">
+									<div class="dialogues__user">
+										<p class="dialogues__name">Nancy Dilan</p>										
+										<time class="dialogues__time" datetime="2021-08-23">0:28 AM</time>										
+									</div>										
+									<p class="dialogues__mess dialogues__mess--smile">Quam vehicula.</p>											
+								</div>
+								</div>
+							</li>
+							<li class="dialogues__item">
+								<div class="dialogues__field dialogues__field--active">
+								<img class="dialogues__image" src="images/content/friend3.png">
+								<div class="dialogues__discription">
+									<div class="dialogues__user">
+										<p class="dialogues__name">Norman Kenney</p>										
+										<time class="dialogues__time" datetime="2021-08-23">Jul 19</time>										
+									</div>										
+									<p class="dialogues__mess dialogues__mess--smile">Nulla quis lorem ut libero...</p>											
+								</div>
+								</div>
+							</li>
+							<li class="dialogues__item dialogues__item--active">
+								<div class="dialogues__field dialogues__field--active">
+								<img class="dialogues__image" src="images/content/friend7.png">
+								<div class="dialogues__discription">
+									<div class="dialogues__user">
+										<p class="dialogues__name">James Dilan</p>										
+										<time class="dialogues__time" datetime="2021-08-23">Jul 16</time>										
+									</div>										
+									<p class="dialogues__mess dialogues__mess--smile">Vivamus magna justo!</p>											
+								</div>
+								</div>
+							</li>
+							<li class="dialogues__item">
+								<div class="dialogues__field">
+									<img class="dialogues__image" src="images/content/friend8.png">
+									<div class="dialogues__discription">
+										<div class="dialogues__user">
+											<p class="dialogues__name">Mike Dorn</p>										
+											<time class="dialogues__time" datetime="2021-08-23">Jul 2</time>										
+										</div>
+										<div class="dialogues__messfoto">
+										<img class="dialogues__fotomess" src="images/content/friend3.png">
+										<span class="dialogues__mess dialogues__mess--foto">Praesent sapien massa.</span>										
+										</div>
+									</div>
+								</div>
+							</li>
+							<li class="dialogues__item">
+								<div class="dialogues__field">
+								<img class="dialogues__image" src="images/content/friend9.png">
+								<div class="dialogues__discription">
+									<div class="dialogues__user">
+										<p class="dialogues__name">Patrick Morison</p>										
+										<time class="dialogues__time" datetime="2021-08-23">Jun 30,12</time>										
+									</div>										
+									<p class="dialogues__mess dialogues__mess--smile">Convallis a pellentesque...</p>											
+								</div>
+								</div>
+							</li>
+							<li class="dialogues__item">
+								<div class="dialogues__field">
+								<img class="dialogues__image" src="images/content/friend4.png">
+								<div class="dialogues__discription">
+									<div class="dialogues__user">
+										<p class="dialogues__name">Anna Doe</p>										
+										<time class="dialogues__time" datetime="2021-08-23">Jun 29,11</time>										
+									</div>										
+									<p class="dialogues__mess dialogues__mess--smile">Convallis a pellentesque...</p>											
+								</div>
+								</div>
+							</li>
+						</ul>
+					</aside>
+					<div class="community">
+						gggg
+					</div>
+				</section>
+				
+
+			</main>
+		</div>
+		
+	</div>
+    
+
+    
+
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
